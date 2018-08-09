@@ -43,32 +43,36 @@ html,body{
     position: absolute;
     width: 200px;
     height: 150px;
-    transform: translate(-50%,-50%);
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -95px;
+    margin-left: -120px;
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: 10px 5px 5px #fff;
-}
-.content .alert-modal div{
-    width: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 .content .alert-modal .alert-header{
+    width: 100%;
     height: 30px;
     text-align: left;
     font-size: 22px;
 }
 .content .alert-modal .alert-body{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
     height: 80px;
-    text-align: center;
 }
 .content .alert-modal .alert-footer{
+    width: 100%;
     height: 40px;
     text-align: center;
 }
-.content .alert-modal .alert-footer .close{
+.content .alert-modal .alert-footer .close-btn{
     padding: 5px 10px;
     background-color: #fff;
     border-radius: 8px;
-    border: none;
 }
 </style>
 

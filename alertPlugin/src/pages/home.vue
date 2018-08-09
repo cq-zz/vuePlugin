@@ -14,8 +14,8 @@ export default {
     methods: {
         alertModal(){
             this.$alert({
-                title:"提示",
-                msg:"你点击了这个按钮"
+                title:"信息提示",
+                msg:"你点击了这个按钮!"
             })
         }
     }
@@ -32,8 +32,8 @@ html,body{
 }
 .home button{
     padding: 10px 20px;
-    border: none;
     background-color: #fff;
     border-radius: 6px;
+    cursor: pointer;
 }
 </style>
