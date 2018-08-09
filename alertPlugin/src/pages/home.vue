@@ -4,8 +4,8 @@
         <button @click.stop="compute">计算</button>
         <input type="text" v-model="num1">
         <select v-model="type">
-            <option value="*" selected>*</option>
-            <option value="%">%</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
             <option value="+">+</option>
             <option value="-">-</option>
         </select>
@@ -19,9 +19,9 @@ export default {
     data(){
         return{
             num:"",
-            num1:8,
-            num2:4,
-            type:""
+            num1:1,
+            num2:1,
+            type:"*"
         }
     },
     methods: {
