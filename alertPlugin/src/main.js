@@ -3,13 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import $alert from './lib/alertPlugin'
 
 Vue.config.productionTip = false
+Vue.use($alert)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  render:h=>h(App)
 })
