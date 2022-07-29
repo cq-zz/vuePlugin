@@ -1,2 +1,2 @@
 # vuePlugin
-vue alert插件
+vue 插件编写
